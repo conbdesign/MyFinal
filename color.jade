@@ -1,0 +1,28 @@
+extends layout
+
+block content
+	#header
+		#logo
+			img(src='/images/logoSmall.png')
+			#nav
+				ul
+					li
+						a(href='/home') Home
+					li
+						a(href='/color') Color
+					li
+						a(href='/places') Places
+
+	#band
+	#main
+		#favoriteColor
+			h1 Image of my Favorite Color App
+			p I was unsuccessful adding the table using Jade. This is an image of it on my website.
+				img(src='/images/favoriteColor.png')
+			a(href="http://students.cpcc.edu/~cbrown75/web215/colorgig/video.html") Colorgig Video Page
+
+	#footer
+		p &copy; ColorGig #{+new Date().getFullYear()} 
+		a(href="http://validator.w3.org/check?uri=https://students.cpcc.edu/~cbrown75/web215/colorgig/home.html") Validator
+	#footer
+		
