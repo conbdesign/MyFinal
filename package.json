@@ -10,5 +10,12 @@
     "jade": "*",
 	"mongodb": "*",
     "monk": "*"
+  },
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/conbdesign/MyFinal.git"
+  },
+  "engines": {
+  "node": "0.10.22"
   }
 }
