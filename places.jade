@@ -1,0 +1,29 @@
+extends layout
+
+block content
+	#header
+		#logo
+			img(src='/images/logoSmall.png')
+			#nav
+				ul
+					li
+						a(href='/home') Home
+					li
+						a(href='/color') Color
+					li
+						a(href='/places') Places
+
+	#band
+	#main
+		#morepic
+			img(src='/images/newhampshireLake.jpg')
+		#place
+			img(src='/images/sugarHillpurple.jpg')
+		#description1
+			h1 New Hampshire Lake  
+		#description2
+			h1 New Hampshire Landscape
+	#footer
+		p &copy; ColorGig #{+new Date().getFullYear()} 
+		a(href="http://validator.w3.org/check?uri=https://students.cpcc.edu/~cbrown75/web215/colorgig/home.html") Validator
+			
