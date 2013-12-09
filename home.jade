@@ -1,0 +1,34 @@
+extends layout
+
+block content
+	#header
+		#logo
+			img(src='/images/logoSmall.png')
+			#nav
+				ul
+					li
+						a(href='/home') Home
+					li
+						a(href='/color') Color
+					li
+						a(href='/places') Places
+
+	#band
+	#main
+		#beauty
+			h1 Beautiful Color!
+			p Everybody needs beauty as well as bread, places to play in and pray in, where nature may heal and give strength to body and soul. John Muir
+			h1 Vision
+			p Blessed are they who see beautiful things in humble places where other people see nothing. Camille Pissarro
+			h1 Nature
+			p Nature always wears the colors of the spirit. Ralph Waldo Emerson
+			h1 Peace
+			p Peace and rest can be found in nature. Connie L Brown
+			h1 Joy
+			p Joy is experienced in taking in the sights, sounds and aromas in Nature.
+		#more
+			img(src='/images/dukegardenclose.jpg')
+	#footer
+		p &copy; ColorGig #{+new Date().getFullYear()} 
+		a(href="http://validator.w3.org/check?uri=https://students.cpcc.edu/~cbrown75/web215/colorgig/home.html") Validator
+			
